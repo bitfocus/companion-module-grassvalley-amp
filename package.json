@@ -1,6 +1,6 @@
 {
 	"name": "grassvalley-amp",
-	"version": "2.0.2",
+	"version": "2.1.0",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
@@ -12,9 +12,10 @@
 		"url": "git+https://github.com/bitfocus/companion-module-grassvalley-amp.git"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.0.2"
+		"@companion-module/base": "^1.13.2"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^0.4.1"
+		"@companion-module/tools": "^2.4.0",
+		"prettier": "^3.6.2"
 	}
 }
