@@ -13,9 +13,7 @@
 			"email": "haakon@bitfocus.io"
 		}
 	],
-	"legacyIds": [
-		"amp"
-	],
+	"legacyIds": ["amp"],
 	"runtime": {
 		"type": "node18",
 		"api": "nodejs-ipc",
@@ -23,10 +21,6 @@
 		"entrypoint": "../index.js"
 	},
 	"manufacturer": "Grass Valley",
-	"products": [
-		"AMP"
-	],
-	"keywords": [
-		"Protocol"
-	]
+	"products": ["AMP"],
+	"keywords": ["Protocol"]
 }
