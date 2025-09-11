@@ -11,6 +11,7 @@ This module connects to devices that support the AMP protocol.
 ### Available actions
 
 - Play
+- Loop playback (On/Off)
 - Stop
 - Eject
 - Record
