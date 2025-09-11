@@ -380,7 +380,28 @@ class GrassvalleyAmp extends InstanceBase {
 				options: [],
 				callback: this.sendCommand.bind(this, '2001')
 			},
-
+			
+			set_loop: {
+				name: 'Loop playback (On/Off)',
+				description: 'Sets AMP loop playback mode via 41.42 with 1=On, 0=Off',
+				options: [
+					{
+						type: 'dropdown',
+						id: 'state',
+						label: 'State',
+						default: '01', // On by default
+						choices: [
+							{ id: '01', label: 'On' },
+							{ id: '00', label: 'Off' },
+						],
+					},
+				],
+				callback: (event) => {
+					// AMP: 41.42 then 1/0 for on/off
+					this.sendCommand('4142' + event.options.state)
+				},
+			},
+		
 			stop: {
 				name: 'Stop',
 				options: [],
