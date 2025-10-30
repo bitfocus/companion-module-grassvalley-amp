@@ -110,7 +110,7 @@ class GrassvalleyAmp extends InstanceBase {
 						// ACKed, ok
 						this.getFileList()
 					} else {
-						this.log('error', 'Unkown data received while connecting to device')
+						this.log('error', 'Unknown data received while connecting to device')
 						this.log('debug', `Did not expect ${result}`)
 					}
 				} else if (this.awaiting_reply) {
