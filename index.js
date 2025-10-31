@@ -6,10 +6,7 @@ import { zpad, str2hex } from './helpers.js'
 
 /**
  * AMP Protocol documentation:
- * http://www.gvgdevelopers.com/concrete/apis/amp_protocol/
- * http://www.gvgdevelopers.com/Protocols/AMP_SDK/Docs/AMP%20at%20a%20glance.pdf
- * http://www.gvgdevelopers.com/concrete/index.php/download_file/-/view/11/ (K2_Protocol_Developers_Guide.pdf)
- * http://www.gvgdevelopers.com/concrete/index.php/download_file/-/view/10 (AMP Specification)
+ * https://wwwapps.grassvalley.com/docs/Manuals/iddr/t2/T2_UsersManual_AMP_E_0111_2011.pdf
  */
 
 class GrassvalleyAmp extends InstanceBase {
