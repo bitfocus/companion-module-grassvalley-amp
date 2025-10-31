@@ -7,6 +7,7 @@ This module connects to devices that support the AMP protocol.
 - Type in the device IP address.
 - The device will communicate over port 3811.
 - You can specify the AMP channel.
+    - For Grass Valley Devices, this probably is "vtrN" where "N" is 1,2,3, ...
 
 ### Available actions
 
